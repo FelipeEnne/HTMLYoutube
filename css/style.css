@@ -309,3 +309,46 @@ main hr{
 .comment-sort p {
 	padding-left: 10px;
 }
+
+
+.cmnt{
+	margin-left: 5px;
+	display: flex;
+	 margin-bottom: 30px;
+}
+
+.cmnt-bx{
+	flex-direction: column;
+    margin-left: 23px;
+}
+
+.cmnt-bx-name{
+	display: flex;
+}
+.user-name{
+	padding-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.cmnt-bx-name p{
+	color: gray;
+}
+
+.cmnt-bx p{
+	margin-right: 100px;
+	margin-top: 0px;
+}
+
+
+.cms-like{
+	display: flex;
+}
+.cms-like img{
+	height: 25px;
+}
+.cms-like p{
+	font-weight: bold;
+    margin-top: 5px;
+}
+
