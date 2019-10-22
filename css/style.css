@@ -1,7 +1,8 @@
 body{
 	margin: 0;
-	font-family: Arial;
+	font-family: sans-serif;
 	font-size: 12px;
+	color: black;
 	background-color: #eeeeee;
 }
 nav {
@@ -136,7 +137,7 @@ main h4 {
 .video-icons{
 	height: 35px;
 	margin-top: 7px;
-	margin-left: 345px;
+	margin-left: 330px;
 }
 
 
@@ -206,8 +207,11 @@ aside {
 
 main hr{
 	display: block;
+	border-top: 1px solid #0808080a;
+	background-color: #f1f1f1;
+	color: #f1f1f1;
     unicode-bidi: isolate;
-    margin-left: 5px;
+	margin-left: 5px;	
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
     margin-inline-start: auto;
@@ -218,6 +222,7 @@ main hr{
 
 .creator {
 	justify-content: space-between;
+	margin-top: 15px;
 	padding: 10px;
 }
 
@@ -249,6 +254,10 @@ main hr{
 	margin: 0 80px;
 }
 
+.video-info p{
+	margin-bottom: 10px;
+}
+
 .show-mr-btn {
 	margin: 0;
 	padding: 0;
@@ -262,18 +271,19 @@ main hr{
 
 .creator-user{
 	display: flex;
+	justify-content: space-between;
 }
 
 .button {
-  	border: none;
-    margin: 9px;
+    border: none;
+    margin: -9px 12px;
     color: white;
-    padding: 5px 14px;
+    padding: 10px 14px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 17px;
-    border-radius: 2px;
+    border-radius: 1px;
     font-weight: normal;
 }
 .subscribe{
@@ -282,6 +292,20 @@ main hr{
 
 .creator-rigth{
 	display: block;
+	margin-right: 90px;
 }
 
+.comment-sort {
+	display: flex;
+	justify-content: flex-start;
+	align-items:center;
+	margin-bottom: 19px; 
+}
 
+.comment-sort img {
+	margin-left: 40px;
+}
+
+.comment-sort p {
+	padding-left: 10px;
+}
