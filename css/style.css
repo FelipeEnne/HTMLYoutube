@@ -10,18 +10,18 @@ nav {
 
 
 
-#top{
+.nav-top{
 	justify-content: space-between;
 	background-color: white;
 	display: flex;	
 	height: 60px;
 	align-items: center;
 }
+
 .nav-item-left {
-	
 	display: flex;
 	justify-content: space-around;
-	padding-left: 15px;
+	padding-left: 40px;
     padding-top: 15px;
     padding-right: 15px;
 	
@@ -46,12 +46,13 @@ nav {
 	height: 22px;
 }
 #burger-nav-img{
-	height: 20px;
-    margin-top: 16px;
+	height: 16px;
+    margin-top: 19px;
 }
 #searchbar {
 	width: 200px;
 	box-sizing: border-box;
+	margin-left: 2px;
 	margin-top: 2px;
 	border: none;
 	border-color: gray;
@@ -67,6 +68,29 @@ nav {
 .nav-item-right{
 	display: flex;
 	justify-content: space-around;
-	padding-right: 20px;
+	padding-right: 60px;
 }
 
+.button {
+  	border: none;
+    color: white;
+    margin-top: 1px;
+    padding: 9px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.signin{
+background-color: #008CBA;
+}
+
+.img-upload{
+	height: 23px;
+    margin-top: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
