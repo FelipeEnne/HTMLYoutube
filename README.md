@@ -2,4 +2,11 @@
 
 Add css and img
 Create a new repository
-Add img
+
+Inital commit
+add navbar
+add img
+add upload img
+finish the navbar
+container & main video inserted
+init aside
