@@ -94,3 +94,20 @@ background-color: #008CBA;
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.container {
+	margin: 10px auto;
+	background-color: white;
+}
+
+.main-video{
+	width: 70%;	
+	margin-left: 20px;
+	display: flex;
+	position: relative;
+	
+}
+
+iframe {
+	position: absolute;
+}
