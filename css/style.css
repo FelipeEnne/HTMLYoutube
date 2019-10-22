@@ -71,28 +71,17 @@ nav {
 	padding-right: 60px;
 }
 
-.button {
-  	border: none;
-    color: white;
-    margin-top: 1px;
-    padding: 9px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    border-radius: 2px;
-    font-weight: bold;
-}
+
 
 .signin{
 background-color: #008CBA;
 }
 
-.img-upload{
-	height: 23px;
+.img-nav{
+	height: 46px;
     margin-top: 9px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2px;
+    padding-right: 10px;
 }
 
 .container {
@@ -177,8 +166,54 @@ main h4 {
 }
 .up-next img{
 	height: 36px;
-    margin-left: 90px;
-    margin-top: 12px;
+    margin-left: 45px;
+    margin-top: 12px;;
+}
+.video-thumb{
+	display: flex;
+}
+
+.video-thumb img {
+    padding-right: 9px;
+    width: 160px;
+    height: auto;
+}
+
+.video-text h3{
+	padding: 0;
+	margin: 0;
+}
+
+aside {
+	padding-right: 10px;
+	width: 280px;
+}
+.video-thumb-anoder{
+	display: flex;
+	margin-top: 15px;
+}
+.video-thumb-anoder img {
+    padding-right: 9px;
+    width: 160px;
+    height: auto;
+}
+
+
+
+
+
+
+
+main hr{
+	display: block;
+    unicode-bidi: isolate;
+    margin-left: 5px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: 112px;
+    border-style: inset;
+    border-width: 1px;
 }
 
 .creator {
@@ -224,4 +259,29 @@ main h4 {
 	text-decoration: none;
 	color: black;
 }
+
+.creator-user{
+	display: flex;
+}
+
+.button {
+  	border: none;
+    margin: 9px;
+    color: white;
+    padding: 5px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 2px;
+    font-weight: normal;
+}
+.subscribe{
+	background-color: red;
+}
+
+.creator-rigth{
+	display: block;
+}
+
 

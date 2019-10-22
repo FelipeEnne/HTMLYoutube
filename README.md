@@ -10,3 +10,5 @@ add upload img
 finish the navbar
 container & main video inserted
 init aside
+creator info section inserted
+finish the aside
