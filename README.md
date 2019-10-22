@@ -13,3 +13,5 @@
 * creator info section inserted
 * finish the aside
 * suscribe button & begin comment section
+* finish comments
+* final commit (margin adjustments & HTML/CSS validation code)
