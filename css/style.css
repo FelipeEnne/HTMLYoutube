@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+	font-family: Arial;
+	font-size: 12px;
+	background-color: #eeeeee;
+}
+nav {
+	justify-content: space-between;
+}
+
+
+
+#top{
+	justify-content: space-between;
+	background-color: white;
+	display: flex;	
+	height: 60px;
+	align-items: center;
+}
+.nav-item-left {
+	
+	display: flex;
+	justify-content: space-around;
+	padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+	
+}
+.nav-item-center {	
+	display: flex;
+	border: 1px solid gray;
+	height: 30px;
+	margin-top: 3px;
+}
+#logo-nav{
+	width: 200px;
+	margin: 0;
+    padding: 0;
+    height: 60px;
+}
+#YT_logo_nav{
+	 height: 50px;
+}
+
+#burger-nav{	
+	height: 22px;
+}
+#burger-nav-img{
+	height: 20px;
+    margin-top: 16px;
+}
+#searchbar {
+	width: 200px;
+	box-sizing: border-box;
+	margin-top: 2px;
+	border: none;
+	border-color: gray;
+	width: 500px;
+	border-radius: 0%;
+}
+#button-searchbar{
+	background-color: #8080800a;
+    border: none;
+    border-left: 1px solid gray;
+}
+
+.nav-item-right{
+	display: flex;
+	justify-content: space-around;
+	padding-right: 20px;
+}
+
