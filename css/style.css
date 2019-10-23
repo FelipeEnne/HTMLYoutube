@@ -1,0 +1,353 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: black;
+	background-color: #eeeeee;
+}
+nav {
+	justify-content: space-between;
+}
+
+
+
+.nav-top{
+	justify-content: space-between;
+	background-color: white;
+	display: flex;	
+	height: 60px;
+	align-items: center;
+}
+
+.nav-item-left {
+	display: flex;
+	justify-content: space-around;
+	padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 15px;
+	
+}
+.nav-item-center {	
+	display: flex;
+	border: 1px solid gray;
+	height: 30px;
+	margin-top: 3px;
+}
+#logo-nav{
+	width: 200px;
+	margin: 0;
+    padding: 0;
+    height: 60px;
+}
+#YT_logo_nav{
+	 height: 50px;
+}
+
+#burger-nav{	
+	height: 22px;
+}
+#burger-nav-img{
+	height: 16px;
+    margin-top: 19px;
+}
+#searchbar {
+	width: 200px;
+	box-sizing: border-box;
+	margin-left: 2px;
+	margin-top: 2px;
+	border: none;
+	border-color: gray;
+	width: 500px;
+	border-radius: 0%;
+}
+#button-searchbar{
+	background-color: #8080800a;
+    border: none;
+    border-left: 1px solid gray;
+}
+
+.nav-item-right{
+	display: flex;
+	justify-content: space-around;
+	padding-right: 60px;
+}
+
+
+
+.signin{
+background-color: #008CBA;
+}
+
+.img-nav{
+	height: 46px;
+    margin-top: 9px;
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+.container {
+	margin: 20px;
+	background-color: white;
+	display: flex;
+}
+
+
+
+
+
+
+main{
+	width: 70%;
+    padding-right: 20px;
+    padding-left: 5px;
+
+}
+.main-video{
+	display: flex;
+	position: relative;
+	height: 500px;
+	margin-top: 23px;
+	
+}
+
+iframe {
+	width:100%;
+	height:100%;
+	position: absolute;
+	width: 90%;
+}
+
+
+main h4 {
+
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.video-stats{
+	display: flex;
+}
+
+.video-views{
+
+    font-size: 15px;
+    font-weight: normal;
+    color: grey;
+    margin-left: 5px;
+}
+
+.video-icons{
+	height: 35px;
+	margin-top: 7px;
+	margin-left: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.up-next{
+	display: flex;
+}
+
+.up-next h3 {
+	color: gray;
+	font-weight: normal;
+	font-size: 19px;
+}
+.up-next img{
+	height: 36px;
+    margin-left: 45px;
+    margin-top: 12px;;
+}
+.video-thumb{
+	display: flex;
+}
+
+.video-thumb img {
+    padding-right: 9px;
+    width: 160px;
+    height: auto;
+}
+
+.video-text h3{
+	padding: 0;
+	margin: 0;
+}
+
+aside {
+	padding-right: 10px;
+	width: 280px;
+}
+.video-thumb-anoder{
+	display: flex;
+	margin-top: 15px;
+}
+.video-thumb-anoder img {
+    padding-right: 9px;
+    width: 160px;
+    height: auto;
+}
+
+
+
+
+
+
+
+main hr{
+	display: block;
+	border-top: 1px solid #0808080a;
+	background-color: #f1f1f1;
+	color: #f1f1f1;
+    unicode-bidi: isolate;
+	margin-left: 5px;	        
+    border-style: inset;
+    border-width: 1px;
+}
+
+.creator {
+	justify-content: space-between;
+	margin-top: 15px;
+	padding: 10px;
+}
+
+.creator-left {
+	display: flex;
+}
+
+.user-avatar img {
+	margin-right: 10px;
+}
+
+.creator-info {	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.creator-name {
+	font-weight: 600;
+}
+
+.posted-date {
+	font-weight: 200;
+	color: #584c4c;
+}
+
+.video-info {
+	padding-top: 11px;
+	margin: 0 80px;
+}
+
+.video-info p{
+	margin-bottom: 10px;
+}
+
+.show-mr-btn {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.show-mr-btn a {
+	text-decoration: none;
+	color: black;
+}
+
+.creator-user{
+	display: flex;
+	justify-content: space-between;
+}
+
+.button {
+    border: none;
+    margin: -9px 12px;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 1px;
+    font-weight: normal;
+}
+.subscribe{
+	background-color: red;
+}
+
+.creator-rigth{
+	display: block;
+	margin-right: 90px;
+}
+
+.comment-sort {
+	display: flex;
+	justify-content: flex-start;
+	align-items:center;
+	margin-bottom: 19px; 
+}
+
+.comment-sort img {
+	margin-left: 40px;
+}
+
+.comment-sort p {
+	padding-left: 10px;
+}
+
+
+.cmnt{
+	margin-left: 5px;
+	display: flex;
+	 margin-bottom: 30px;
+}
+
+.cmnt-bx{
+	flex-direction: column;
+    margin-left: 23px;
+}
+
+.cmnt-bx-name{
+	display: flex;
+}
+.user-name{
+	padding-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.cmnt-bx-name p{
+	color: gray;
+}
+
+.cmnt-bx p{
+	margin-right: 100px;
+	margin-top: 0px;
+}
+
+
+.cms-like{
+	display: flex;
+}
+.cms-like img{
+	height: 25px;
+}
+.cms-like p{
+	font-weight: bold;
+    margin-top: 5px;
+}
+
